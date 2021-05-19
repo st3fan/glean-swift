@@ -6,7 +6,7 @@ let version = "38.0.0"
 let url = "https://github.com/badboy/glean-swift/releases/download/\(version)/Glean.xcframework.zip"
 
 let package = Package(
-    name: "Glean",
+    name: "GleanSwift",
     platforms: [.iOS(.v11)],
     products: [
         .library(name: "Glean", targets: ["Glean"]),
